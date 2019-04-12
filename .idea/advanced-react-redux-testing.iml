@@ -14,5 +14,7 @@
     <orderEntry type="library" name="@types/reduce-reducers" level="application" />
     <orderEntry type="library" name="@types/redux-action" level="application" />
     <orderEntry type="library" name="@types/redux-actions" level="application" />
+    <orderEntry type="library" name="@types/redux-action-utils" level="application" />
+    <orderEntry type="library" name="@types/redux-ui" level="application" />
   </component>
 </module>
