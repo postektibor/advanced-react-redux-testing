@@ -8,5 +8,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="@types/react" level="application" />
+    <orderEntry type="library" name="@types/jest" level="application" />
+    <orderEntry type="library" name="@types/react-intl-redux" level="application" />
+    <orderEntry type="library" name="@types/reduce-reducers" level="application" />
+    <orderEntry type="library" name="@types/redux-action" level="application" />
+    <orderEntry type="library" name="@types/redux-actions" level="application" />
   </component>
 </module>
