@@ -4,10 +4,10 @@ import { createStore } from 'redux';
 import reducers from 'reducers';
 import { devToolsEnhancer } from 'redux-devtools-extension';
 
-export default (props) => {
+export default ({ children, initialState = {} }) => {
   return (
-    <Provider store={createStore(reducers, devToolsEnhancer())}>
-      {props.children}
+    <Provider store={createStore(reducers, initialState, devToolsEnhancer())}>
+      {children}
     </Provider>
   )
 };
